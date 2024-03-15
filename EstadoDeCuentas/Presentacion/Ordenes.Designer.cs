@@ -70,7 +70,7 @@
             // txtNombreCliente
             // 
             this.txtNombreCliente.Location = new System.Drawing.Point(510, 36);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.Size = new System.Drawing.Size(131, 20);
             this.txtNombreCliente.TabIndex = 2;
@@ -79,7 +79,7 @@
             // txtApellidoCliente
             // 
             this.txtApellidoCliente.Location = new System.Drawing.Point(703, 36);
-            this.txtApellidoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellidoCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellidoCliente.Name = "txtApellidoCliente";
             this.txtApellidoCliente.Size = new System.Drawing.Size(130, 20);
             this.txtApellidoCliente.TabIndex = 4;
@@ -87,7 +87,7 @@
             // txtEstadoPedido
             // 
             this.txtEstadoPedido.Location = new System.Drawing.Point(136, 132);
-            this.txtEstadoPedido.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEstadoPedido.Margin = new System.Windows.Forms.Padding(2);
             this.txtEstadoPedido.Name = "txtEstadoPedido";
             this.txtEstadoPedido.Size = new System.Drawing.Size(151, 20);
             this.txtEstadoPedido.TabIndex = 5;
@@ -95,7 +95,7 @@
             // txtObservaciones
             // 
             this.txtObservaciones.Location = new System.Drawing.Point(335, 132);
-            this.txtObservaciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtObservaciones.Margin = new System.Windows.Forms.Padding(2);
             this.txtObservaciones.Name = "txtObservaciones";
             this.txtObservaciones.Size = new System.Drawing.Size(127, 20);
             this.txtObservaciones.TabIndex = 6;
@@ -103,7 +103,7 @@
             // txtContactoCliente
             // 
             this.txtContactoCliente.Location = new System.Drawing.Point(136, 88);
-            this.txtContactoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtContactoCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtContactoCliente.Name = "txtContactoCliente";
             this.txtContactoCliente.Size = new System.Drawing.Size(151, 20);
             this.txtContactoCliente.TabIndex = 9;
@@ -112,7 +112,7 @@
             // 
             this.cbxProducto.FormattingEnabled = true;
             this.cbxProducto.Location = new System.Drawing.Point(136, 36);
-            this.cbxProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxProducto.Margin = new System.Windows.Forms.Padding(2);
             this.cbxProducto.Name = "cbxProducto";
             this.cbxProducto.Size = new System.Drawing.Size(151, 21);
             this.cbxProducto.TabIndex = 10;
@@ -121,7 +121,7 @@
             // 
             this.cbxColor.FormattingEnabled = true;
             this.cbxColor.Location = new System.Drawing.Point(335, 36);
-            this.cbxColor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cbxColor.Margin = new System.Windows.Forms.Padding(2);
             this.cbxColor.Name = "cbxColor";
             this.cbxColor.Size = new System.Drawing.Size(127, 21);
             this.cbxColor.TabIndex = 11;
@@ -191,7 +191,7 @@
             // dteFechaCompra
             // 
             this.dteFechaCompra.Location = new System.Drawing.Point(335, 86);
-            this.dteFechaCompra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dteFechaCompra.Margin = new System.Windows.Forms.Padding(2);
             this.dteFechaCompra.Name = "dteFechaCompra";
             this.dteFechaCompra.Size = new System.Drawing.Size(127, 20);
             this.dteFechaCompra.TabIndex = 18;
@@ -249,7 +249,7 @@
             // nmcCantidad
             // 
             this.nmcCantidad.Location = new System.Drawing.Point(703, 135);
-            this.nmcCantidad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nmcCantidad.Margin = new System.Windows.Forms.Padding(2);
             this.nmcCantidad.Name = "nmcCantidad";
             this.nmcCantidad.Size = new System.Drawing.Size(129, 20);
             this.nmcCantidad.TabIndex = 24;
@@ -261,7 +261,7 @@
             this.dgvOrdenes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvOrdenes.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgvOrdenes.Location = new System.Drawing.Point(0, 283);
-            this.dgvOrdenes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvOrdenes.Margin = new System.Windows.Forms.Padding(2);
             this.dgvOrdenes.Name = "dgvOrdenes";
             this.dgvOrdenes.RowHeadersWidth = 62;
             this.dgvOrdenes.RowTemplate.Height = 28;
@@ -283,7 +283,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(81, 190);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(105, 60);
             this.btnAgregar.TabIndex = 28;
@@ -293,20 +293,22 @@
             // 
             // btnBorrar
             // 
+            this.btnBorrar.BackColor = System.Drawing.Color.DarkGoldenrod;
+            this.btnBorrar.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnBorrar.Location = new System.Drawing.Point(259, 190);
-            this.btnBorrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBorrar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBorrar.Name = "btnBorrar";
             this.btnBorrar.Size = new System.Drawing.Size(95, 60);
             this.btnBorrar.TabIndex = 29;
             this.btnBorrar.Text = "Borrar";
-            this.btnBorrar.UseVisualStyleBackColor = true;
+            this.btnBorrar.UseVisualStyleBackColor = false;
             this.btnBorrar.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // txtID
             // 
             this.txtID.Enabled = false;
             this.txtID.Location = new System.Drawing.Point(16, 36);
-            this.txtID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtID.Margin = new System.Windows.Forms.Padding(2);
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(93, 20);
             this.txtID.TabIndex = 30;
@@ -325,7 +327,7 @@
             // 
             this.txtIdCliente.Enabled = false;
             this.txtIdCliente.Location = new System.Drawing.Point(16, 88);
-            this.txtIdCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtIdCliente.Margin = new System.Windows.Forms.Padding(2);
             this.txtIdCliente.Name = "txtIdCliente";
             this.txtIdCliente.Size = new System.Drawing.Size(93, 20);
             this.txtIdCliente.TabIndex = 32;
@@ -344,7 +346,7 @@
             // btnModificar
             // 
             this.btnModificar.Location = new System.Drawing.Point(427, 190);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(95, 60);
             this.btnModificar.TabIndex = 34;
@@ -355,7 +357,7 @@
             // btnCancelar
             // 
             this.btnCancelar.Location = new System.Drawing.Point(595, 190);
-            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancelar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(103, 60);
             this.btnCancelar.TabIndex = 35;
@@ -366,7 +368,7 @@
             // txtTipodePago
             // 
             this.txtTipodePago.Location = new System.Drawing.Point(510, 132);
-            this.txtTipodePago.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTipodePago.Margin = new System.Windows.Forms.Padding(2);
             this.txtTipodePago.Name = "txtTipodePago";
             this.txtTipodePago.Size = new System.Drawing.Size(131, 20);
             this.txtTipodePago.TabIndex = 26;
@@ -374,7 +376,7 @@
             // nudPrecioVenta
             // 
             this.nudPrecioVenta.Location = new System.Drawing.Point(511, 86);
-            this.nudPrecioVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudPrecioVenta.Margin = new System.Windows.Forms.Padding(2);
             this.nudPrecioVenta.Name = "nudPrecioVenta";
             this.nudPrecioVenta.Size = new System.Drawing.Size(129, 20);
             this.nudPrecioVenta.TabIndex = 40;
@@ -383,7 +385,7 @@
             // nudDescuento
             // 
             this.nudDescuento.Location = new System.Drawing.Point(703, 88);
-            this.nudDescuento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudDescuento.Margin = new System.Windows.Forms.Padding(2);
             this.nudDescuento.Name = "nudDescuento";
             this.nudDescuento.Size = new System.Drawing.Size(129, 20);
             this.nudDescuento.TabIndex = 41;
@@ -428,7 +430,7 @@
             this.Controls.Add(this.txtEstadoPedido);
             this.Controls.Add(this.txtApellidoCliente);
             this.Controls.Add(this.txtNombreCliente);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ordenes";
             this.Text = "Ordenes";
             this.Load += new System.EventHandler(this.Ordenes_Load);
